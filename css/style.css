@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Gilroy-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Gilroy-Medium.woff") format("woff");
+}
+
+#main {
+    max-width: 100%;
+
+}
+#wrapper {
+    margin: 0 auto;
+    max-width: 940px;
+
+}
+a {
+    text-decoration: none;
+    color:#828282;
+}
+.navbar {
+    max-width: 100%;
+    border-bottom: 1px solid #828282;
+    line-height: 22px;      
+}
+
+#ul_navbar {
+    font-size: 18px;
+    list-style-type: none;
+    font-family: Gilroy-Bold;
+    padding: 0px 0px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+#name {
+    font-family: Gilroy-Bold;
+    font-size: 47px;   
+    display: inline-block;
+    max-width: 300px;
+    margin-right: 100px;
+
+}
+#I {
+    text-align: center;
+    display: inline-block;
+    font-family: Gilroy-Medium;
+    font-size: 18px;   
+    margin-right: 100px;
+    margin-top: 30%;
+}
+#me_photo {
+    height: 387px;
+    width: 100%;
+    margin-bottom: 97px;
+}
+#about_me {
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    margin: 0px auto;
+    display: block;
+    height: 500px;
+}
+#second {
+    display: block;
+    max-width: 100%;
+    max-height: 506px;
+    background-color: #F6F6F6;
+    margin-bottom: 97px;
+    
+}
+#ab {
+    text-align: center;
+}
+#ct {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    margin: 100px auto;
+ 
+}
+
+#grid {
+    padding: 0px 0px;
+    margin: 83px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    list-style-type: none; 
+    justify-items: center;
+    font-family: Gilroy-Bold;
+    text-align: center;
+    font-size: 14px;
+    
+}
+#skills {
+    text-align: center;
+    font-family: Gilroy-Bold; 
+    font-size: 34px;
+}
+#progs {
+    font-family: Gilroy-Medium;
+    text-align: center;
+    font-size: 18px;   
+}
+.skills_ph {
+    width: 89px;
+    height: 88px;
+    margin-bottom: 8px;
+}
+#gt {
+    margin-top: 3px;
+}
+#last {
+    display: block;
+    max-width: 100%;
+    max-height: 506px;
+    background-color: #F6F6F6;
+    margin-bottom: 112px;   
+}
+#portfolio {
+    
+}
+#portfol {
+    display: block;
+    padding: 100px 0px 60px 0px;
+    text-align:center;
+}
+#soon {
+    font-family: Gilroy-Bold;
+    text-align: center;
+    font-size: 20px;
+}
+#footer {
+    margin-top: 100px;
+}
+#contain {
+    width: 340px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 18px;
+}
+#contain p{
+    line-height: 4px;
+    font-family: Gilroy-Medium;
+    font-size: 18px
+}
+#ul_ft {
+    padding: 0px 0px;
+     display: flex;
+    list-style-type: none;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.ct_ph {
+}
+#social {
+    color: #828282;
+    font-size: 14px;
+}
+#snd {
+    color: white;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+}
+#bt {
+    margin-top: 15px;
+    background-color: black;
+    border-radius: 20px;
+    width: 65%;
+    border: none;
+}
+
+.lng {
+    display: inline-block;
+    transform: rotate(-90deg);
+    height: 0px;
+}
+#grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+#lng_eng, stick {
+    font-family: Gilroy-Bold;
+}
+
